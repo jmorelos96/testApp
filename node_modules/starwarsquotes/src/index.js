@@ -1,0 +1,10 @@
+
+var starWarsQuotes = require("./quotes.js");
+var uniQueRandomArray = require("unique-random-array");
+
+module.exports = {
+	all: starWarsQuotes,
+	random: uniQueRandomArray(quotes)
+};
+
+
