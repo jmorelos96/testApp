@@ -6,8 +6,8 @@
 
 
 ### Rutas de la API  
-  |   |       |   |
+  | Metodo  |     Ruta     |   |
   |------|-----------------|---|
   | GET  |  /              | index   |
-  | GET  |  /swquotes         | star wars quotes  |
-  | GET  |  /g         | prueba de modulos  |
+  | GET  |  /swquotes      | star wars quotes  |
+  | GET  |  /g             | prueba de modulos  |
