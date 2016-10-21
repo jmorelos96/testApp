@@ -4,10 +4,7 @@
   - Vista.
   - Controladores.
 
-
-### Rutas de la API  
-  | Metodo  |     Ruta     |   |
-  |------|-----------------|---|
-  | GET  |  /              | index   |
-  | GET  |  /swquotes      | star wars quotes  |
-  | GET  |  /g             | prueba de modulos  |
+### - Rutas de la api
+  - /             index
+  - /swquotes     star wars quotes
+  - /g            prueba de modulos externos
