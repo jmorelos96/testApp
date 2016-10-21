@@ -3,8 +3,8 @@
   - Contiene rutas.
   - Vista.
   - Controladores.
-  
-### - Rutas de la api
-  - /             ---->   index
-  - /swquotes     ---->   star wars quotes
-  - /g            ---->   prueba de modulos externos
+
+### | Rutas de la api|
+  | /             |index
+  | /swquotes     |star wars quotes
+  | /g            |prueba de modulos externos
