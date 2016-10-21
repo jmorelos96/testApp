@@ -22,4 +22,8 @@ router.get('/g',function(req,res){
   res.render('g');
 });
 
+router.get('/chat',function(req, res){
+  res.render('Working with a chat in socket io ... soon');
+})
+
 module.exports = router;
