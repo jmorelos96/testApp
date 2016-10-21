@@ -1,5 +1,8 @@
 var express = require('express');
 var router = express.Router();
+var http = require('http').Server(router);
+var io = require('socket.io')(http);
+var path = require('path');
 
 //Star wars quotes
 var names = require('starwarsquotes');
@@ -23,7 +26,14 @@ router.get('/g',function(req,res){
 });
 
 router.get('/chat',function(req, res){
-  res.render('Working with a chat in socket io ... soon');
-})
+  res.sendFile(path.join(__dirname + '/../views/chat.html'));
 
+
+
+});
+
+
+io.on('connection', function(socket){
+  console.log('a user connected');
+});
 module.exports = router;
