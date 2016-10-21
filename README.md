@@ -5,6 +5,6 @@
   - Controladores.
 
 ### - Rutas de la api
-  - /             index
-  - /swquotes     star wars quotes
-  - /g            prueba de modulos externos
+  - /             -  index
+  - /swquotes     -  star wars quotes
+  - /g            -  prueba de modulos externos
